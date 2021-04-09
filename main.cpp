@@ -116,7 +116,6 @@ int Container::GetKeyPosition(std::string key) const
 
 int main(int argc, char* argv[])
 {
-    setlocale(LC_ALL, "Russian");
     if(argc != 2)
     {
         std::cout << "Program must have only one argument: data file name.\n";
