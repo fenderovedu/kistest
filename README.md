@@ -1,7 +1,6 @@
 # Вступительный тест на кафедру 1С
 
 ## Компиляция
-mkdir build
 ```
 mkdir build
 g++ -std=c++17 main.cpp -o build/solution
